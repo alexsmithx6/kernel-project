@@ -3,8 +3,8 @@ I made a kernel using Qemu because I can
 
 ## Dependencies (OS Specific):
 
-* (https://hub.docker.com/)[Docker]
-* (https://www.qemu.org/)[QEMU]
+* (Docker)[https://hub.docker.com/]
+* (QEMU)[https://www.qemu.org/]
 
 ## Setup / Run:
 
