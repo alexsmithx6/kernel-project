@@ -12,18 +12,18 @@ I made a kernel using Qemu because I can
 
 ```docker build buildenv -t myos-buildenv```
 
-1. Docker environment should run. I am currently using Windows Powershell to invoke this docker environment, so I run this command:
+2. Docker environment should run. I am currently using Windows Powershell to invoke this docker environment, so I run this command:
 
 ```docker run --rm -it -v "${pwd}:/root/env" myos-buildenv```
 
-1. In this Docker environment:
+3. In this Docker environment:
 
 ```
 make build-x86_64   # to build the ISO and related distribution files
 make clean          # to clean the build environment    
 ```
 
-1. NOTE: If running on a different OS, choose from the following commands to run as in Step 2:
+4. NOTE: If running on a different OS, choose from the following commands to run as in Step 2:
 
 * Linux/MaxOS:
 
